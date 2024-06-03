@@ -1,5 +1,4 @@
 // script.js
-
 // Functionality for login page
 function handleLogin() {
     // Add login functionality here
