@@ -1,8 +1,3 @@
-# FRT-MedicoHealthManagementSystem-
-
-- Provide medication assistance and reminders.<br>
-- Offer personalized diet and nutrition advice.<br>
-- Allow patients to provide previous health details for﻿FRT-HealthManagementSystem-Project
 <h1>Medico : A Health Management System </h1>
 <br>
 <h2>Table of Contents</h2><br>
@@ -25,19 +20,19 @@ The Health Management System is designed to provide patients with a comprehensiv
 - Ensure secure management of health records.<br>
 
 <h3>3. Features</h3>
--> Anonymous Consultation: Secure messaging system for patients to consult with doctors anonymously.<br>
--> Medication Assistance: Guidance on medication based on user input and doctor recommendations.<br>
--> Diet and Nutrition Advice <br>
--> Nutritional information.<br>
--> Appointment Scheduling.
+- Anonymous Consultation: Secure messaging system for patients to consult with doctors anonymously.<br>
+- Medication Assistance: Guidance on medication based on user input and doctor recommendations.<br>
+- Diet and Nutrition Advice <br>
+- Nutritional information.<br>
+- Appointment Scheduling.
 <br>
 <h3>4. Technologies Used</h3><br>
-1. HTML <BR>
+1. HTML <br>
 2. CSS <br>
 3. JS
 <h3>5. Azure Services</h3><br>
-<h4>Core Azure services</h4><br>
+Core Azure services<br>
 1. Static Web Apps<br>
 2. Visual Studio <br>
-<h4>Azure AI services</h4><br>
+Azure AI services<br>
 1. Health Bot
