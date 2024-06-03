@@ -1,0 +1,132 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #c4c1c1;
+}
+
+header {
+    background-color: #2f8f62;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header .logo h1 {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 15px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav ul li a:hover {
+    background-color: #45a049;
+}
+
+main {
+    padding: 20px;
+}
+
+/* Add your CSS styles for labs page here */
+.labs-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.lab-box {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: calc(33.33% - 20px); /* Adjust width based on number of lab boxes */
+    min-width: 250px; /* Set minimum width for better alignment */
+    height: auto; /* Remove fixed height for lab boxes */
+    display: flex;
+    flex-direction: column;
+}
+
+.lab-box img {
+    width: 100%;
+    height: 200px; /* Set fixed height for images */
+    object-fit: cover; /* Maintain aspect ratio and fill the container */
+    border-radius: 8px 8px 0 0; /* Apply border radius to top corners */
+    margin-bottom: 10px;
+}
+
+.lab-box h2 {
+    margin-top: 0;
+}
+
+.lab-box p {
+    flex-grow: 1; /* Allow description to grow vertically */
+    margin-bottom: 10px; /* Add space between description and options */
+}
+
+.options {
+    display: flex;
+    justify-content: space-between; /* Distribute buttons evenly */
+}
+
+.book-btn, .report-btn {
+    flex-basis: 48%; /* Set width for buttons */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.book-btn {
+    background-color: #e73819;
+    color: white;
+}
+
+.report-btn {
+    background-color: #1463da;
+    color: white;
+}
+
+.book-btn:hover, .report-btn:hover {
+    background-color: #6e706e;
+}
+
+footer {
+    background-color: #2f8f62;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+}
