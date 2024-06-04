@@ -86,9 +86,16 @@ step5. Downloading Extensions in VS code
 
 ![Screenshot (191)](https://github.com/Anamika-ghosh/FRT-MedicoHealthManagementSystem-/assets/151986418/4ca17944-329d-443e-a664-d3d123d8478b)
 
+
 <h3>Task2. Get Started with the Azure AI Services
 
 <h2> Check out the Video link to see how AI model deployed on Azure : (https://drive.google.com/file/d/1eLRlw_m3U4y4iqRJ-3jldmouS7rgBb0_/view?usp=sharing)</h2>
 
 <h2> Check out Video link to see how website deployed on Azure : (https://drive.google.com/file/d/1eH9mE3sZiBGfE36xskH6mNQaXM5CLUTg/view?usp=sharing) </h2>
 
+
+<h2>Contact Me</h2>
+
+For collaboration 
+<br>
+Email Id: g.anamika0101@gmail.com
