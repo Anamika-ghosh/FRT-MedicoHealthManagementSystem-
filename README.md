@@ -39,11 +39,13 @@ The Health Management System is designed to provide patients with a comprehensiv
 </ul>
 <br>
 <h2>4. Technologies Used</h2><br>
+
  1. HTML <br>
 
  2. CSS <br>
 
  3. JS
+    
 <h2>5. Azure Services</h2><br>
 
 * Core Azure services<br> 
@@ -54,7 +56,7 @@ The Health Management System is designed to provide patients with a comprehensiv
 
 * Azure AI services<br>
 
-1. Health Bot
+1. Azure Cognitive Services
 <br>
 <h2>6. Implementation </h2>
 
@@ -62,8 +64,8 @@ How the project is implemented from setting up enviroment to deployement<br>
 
 <h3>Task 1. Setting up environment in the VS Code</h3>
 
+<h3> From Visual Studio Code </h3>
 step1. Download Visual Code
-
 
 ![Screenshot (189)](https://github.com/Anamika-ghosh/FRT-MedicoHealthManagementSystem-/assets/151986418/34998ff2-b23c-4dc2-afe8-1e9c0dbad906)
 
@@ -73,11 +75,10 @@ step2. Creating a Folder on local machine
 
 step3. Opening the folder in VS code
 
-
 Cre![Screenshot (185)](https://github.com/Anamika-ghosh/FRT-MedicoHealthManagementSystem-/assets/151986418/1d27c0b2-85d2-4a75-9b89-d8c171a3f4f2)
 
-
 step4. Creating HTML,CSS and JS files in that folder
+
 ![Screenshot (186)](https://github.com/Anamika-ghosh/FRT-MedicoHealthManagementSystem-/assets/151986418/6bf34329-e642-41dd-b910-0bf15d201f90)
 
 
@@ -85,13 +86,9 @@ step5. Downloading Extensions in VS code
 
 ![Screenshot (191)](https://github.com/Anamika-ghosh/FRT-MedicoHealthManagementSystem-/assets/151986418/4ca17944-329d-443e-a664-d3d123d8478b)
 
-<h3>Task2 . Setting up enviroment in VS code for static web apps</h3>
+<h3>Task2. Get Started with the Azure AI Services
 
-step1. Download Azure Static Web apps extension
+<h2> Check out the Video link to see how AI model deployed on Azure : [Video Link ] (https://drive.google.com/drive/u/0/home)</h2>
 
+<h2> Check out Video link to see how website deployed on Azure :  [View my file ](https://drive.google.com/drive/u/0/home) </h2>
 
-
-step2. Selecting the subscription type 
-
-
-step3. 
