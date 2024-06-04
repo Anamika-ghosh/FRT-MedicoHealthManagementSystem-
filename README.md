@@ -15,12 +15,19 @@ The Health Management System is designed to provide patients with a comprehensiv
 
 <h2>2. Features</h2>
 <ul>
- Enable patients to consult doctors anonymously.<br>
+ Enable patients to consult doctors anonymously.
+ <br>
+ 
  Facilitate scheduling and management of pathology tests and results.<br>
+ 
  Ensure secure management of health records.<br>
+ 
  Anonymous Consultation: Secure messaging system for patients to consult with doctors anonymously.<br>
+ 
  Medication Assistance: Guidance on medication based on user input and doctor recommendations.<br>
+ 
  Diet and Nutrition Advice <br>
+ 
  Appointment Scheduling.
 </ul>
 <br>
