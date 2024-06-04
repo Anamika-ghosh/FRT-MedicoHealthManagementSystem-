@@ -22,15 +22,70 @@
         </nav>
     </header>
     <main>
-        <section class="chat-container">
-            <div class="chat-box" id="chat-box">
-                <div class="chat-content" id="chat-content"></div>
-                <div class="user-input">
-                    <input type="text" id="user-input" placeholder="Type your message...">
-                    <button id="send-btn">Send</button>
+        
+        <div class="container">
+            <div class="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="image\a1.jpeg" alt="Image 1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="image\a2.jpeg" alt="Image 2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="image\a3.jpeg" alt="Image 3">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="image\a4.jpeg" alt="Image 4">
+                    </div>
+                   
                 </div>
             </div>
-        </section>
+    
+        <div class="assistance-section">
+            <div class="assistance-box" id="nutrition-assistance">
+                <img src="image\ass2.jpeg" alt="Nutrition Assistance">
+                <h3>Need Nutrition Assistance?</h3>
+                <p>Ask our doctor for personalized nutrition plans.</p>
+                <button onclick="toggleChat('nutrition-chatbox')">Chat Now</button>
+                <div id="nutrition-chatbox" class="chatbox chatbox-hidden">
+                    <div class="chatbox-header">Nutrition Assistance</div>
+                    <div class="chatbox-content">
+                        <!-- Chat content goes here -->
+                    </div>
+                    <input type="text" placeholder="Type your message...">
+                    <button>Send</button>
+                </div>
+            </div>
+            <div class="assistance-box" id="medication-assistance">
+                <img src="image\ass1.jpeg" alt="Medication Assistance">
+                <h3>Need Medication Assistance?</h3>
+                <p>Get expert advice on your medication from our doctor.</p>
+                <button onclick="toggleChat('medication-chatbox')">Chat Now</button>
+                <div id="medication-chatbox" class="chatbox chatbox-hidden">
+                    <div class="chatbox-header">Medication Assistance</div>
+                    <div class="chatbox-content">
+                        <!-- Chat content goes here -->
+                    </div>
+                    <input type="text" placeholder="Type your message...">
+                    <button>Send</button>
+                </div>
+            </div>
+            <div class="assistance-box" id="reports-assistance">
+                <img src="image\ass3.jpeg" alt="Reports Assistance">
+                <h3>Need Assistance with Reports?</h3>
+                <p>Our team can help you understand your medical reports.</p>
+                <button onclick="toggleChat('reports-chatbox')">Chat Now</button>
+                <div id="reports-chatbox" class="chatbox chatbox-hidden">
+                    <div class="chatbox-header">Reports Assistance</div>
+                    <div class="chatbox-content">
+                        <!-- Chat content goes here -->
+                    </div>
+                    <input type="text" placeholder="Type your message...">
+                    <button>Send</button>
+                </div>
+            </div>
+        </div>
     </main>
     <footer>
         <p>&copy; 2024 Health Management System. All rights reserved. | By Anamikaghosh</p>
