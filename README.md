@@ -84,3 +84,14 @@ step4. Creating HTML,CSS and JS files in that folder
 step5. Downloading Extensions in VS code
 
 ![Screenshot (191)](https://github.com/Anamika-ghosh/FRT-MedicoHealthManagementSystem-/assets/151986418/4ca17944-329d-443e-a664-d3d123d8478b)
+
+<h3>Task2 . Setting up enviroment in VS code for static web apps</h3>
+
+step1. Download Azure Static Web apps extension
+
+
+
+step2. Selecting the subscription type 
+
+
+step3. 
