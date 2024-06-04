@@ -63,54 +63,27 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 // bot 
-
+// assisstance page 
 // Get DOM elements
-const chatContent = document.getElementById('chat-content');
-const userInput = document.getElementById('user-input');
-const sendBtn = document.getElementById('send-btn');
+let currentIndex = 0;
 
-// Array of responses from the chatbot
-const responses = [
-    "Hello! How can I assist you today?",
-    "How can I help you?",
-    "Feel free to ask me anything about your health.",
-    "I'm here to provide assistance.",
-    "Let me know if you have any questions."
-];
-
-// Function to display bot message
-function displayBotMessage(message) {
-    const botMessage = document.createElement('div');
-    botMessage.classList.add('bot-message');
-    botMessage.textContent = message;
-    chatContent.appendChild(botMessage);
+function showNextImage() {
+    const items = document.querySelectorAll('.carousel-item');
+    items[currentIndex].classList.remove('active');
+    currentIndex = (currentIndex + 1) % items.length;
+    items[currentIndex].classList.add('active');
 }
 
-// Function to display user message
-function displayUserMessage(message) {
-    const userMessage = document.createElement('div');
-    userMessage.classList.add('user-message');
-    userMessage.textContent = message;
-    chatContent.appendChild(userMessage);
-}
+setInterval(showNextImage, 3000);
 
-// Function to handle user input
-function handleUserInput() {
-    const message = userInput.value.trim();
-    
-    if (message !== '') {
-        // Display user message
-        displayUserMessage(message);
-
-        // Get a random response from the chatbot and display
-        const randomResponse = responses[Math.floor(Math.random() * responses.length)];
-        displayBotMessage(randomResponse);
-
-        // Clear user input
-        userInput.value = '';
-
-        // Scroll to the bottom of the chat box
-        chatContent.scrollTop = chatContent.scrollHeight;
+function toggleChat(chatboxId) {
+    const chatbox = document.getElementById(chatboxId);
+    if (chatbox.classList.contains('chatbox-hidden')) {
+        chatbox.classList.remove('chatbox-hidden');
+        chatbox.classList.add('chatbox-visible');
+    } else {
+        chatbox.classList.remove('chatbox-visible');
+        chatbox.classList.add('chatbox-hidden');
     }
 }
 
