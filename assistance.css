@@ -47,56 +47,126 @@ nav ul li a:hover {
     background-color: #45a049;
 }
 
-.main-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-grow: 1; /* Allow the main container to grow to fill remaining space */
-}
 
-.chat-container {
-    background-color: #fff;
-    width: 80%;
-    max-width: 600px;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    animation: fadeInUp 0.6s ease;
-}
 
-.chat-box {
-    overflow-y: auto;
-    max-height: 300px;
-}
-
-.user-input {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 20px;
-}
-
-.user-input input {
-    flex: 1;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-}
-
-.user-input button {
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-.user-input button:hover {
-    background-color: #45a049;
-}
-
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    
+    .carousel {
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+    }
+    
+    .carousel-inner {
+        display: flex;
+        transition: transform 1s ease-in-out;
+    }
+    
+    .carousel-item {
+        min-width: 100%;
+    }
+    
+    .carousel-item img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+    
+    .assistance-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        background-color: #fff;
+    }
+    .assistance-box {
+        text-align: center;
+        background-color: #f9f9f9;
+        padding: 20px;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        width: 80%;
+        margin-bottom: 20px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    
+    .assistance-box img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+    }
+    button {
+        padding: 10px 15px;
+        background-color: #007bff;
+        border: none;
+        color: white;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    
+    button:hover {
+        background-color: #0056b3;
+    }
+    
+    
+    .chatbox {
+        display: flex;
+        flex-direction: column;
+        background: white;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        margin-top: 10px;
+    }
+    
+    .chatbox-hidden {
+        display: none;
+    }
+    
+    .chatbox-visible {
+        display: block;
+    }
+    
+    .chatbox-header {
+        background: #007bff;
+        color: white;
+        padding: 10px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        text-align: center;
+    }
+    
+    .chatbox-content {
+        flex-grow: 1;
+        padding: 10px;
+        overflow-y: auto;
+        border-bottom: 1px solid #ccc;
+    }
+    
+    .chatbox input {
+        border: none;
+        padding: 10px;
+        width: calc(100% - 20px);
+        border-bottom-left-radius: 10px;
+    }
+    
+    .chatbox button {
+        border: none;
+        background: #007bff;
+        color: white;
+        padding: 10px;
+        border-bottom-right-radius: 10px;
+        cursor: pointer;
+    }
+    
+    .chatbox button:hover {
+        background: #0056b3;
+    }
 footer {
     margin-top: auto; /* Push the footer to the bottom */
     background-color: #2f8f62;
@@ -115,3 +185,5 @@ footer {
         transform: translateY(0);
     }
 }
+
+
