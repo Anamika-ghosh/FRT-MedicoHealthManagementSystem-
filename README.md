@@ -88,7 +88,7 @@ step5. Downloading Extensions in VS code
 
 <h3>Task2. Get Started with the Azure AI Services
 
-<h2> Check out the Video link to see how AI model deployed on Azure : [Video Link ] (https://drive.google.com/drive/u/0/home)</h2>
+<h2> Check out the Video link to see how AI model deployed on Azure : (https://drive.google.com/file/d/1eLRlw_m3U4y4iqRJ-3jldmouS7rgBb0_/view?usp=sharing)</h2>
 
-<h2> Check out Video link to see how website deployed on Azure :  [View my file ](https://drive.google.com/drive/u/0/home) </h2>
+<h2> Check out Video link to see how website deployed on Azure : (https://drive.google.com/file/d/1eH9mE3sZiBGfE36xskH6mNQaXM5CLUTg/view?usp=sharing) </h2>
 
